@@ -1,0 +1,129 @@
+@import '../../../styles/theme';
+
+.pagination-container {
+    padding-top: 40px;
+}
+
+.reset-auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.business-layout.container {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding: 40px;
+
+    .card-header {
+        font-size: 25px !important;
+        line-height: 47px;
+    }
+
+    .steps-card {
+        max-width: 347px;
+        width: 347px;
+        margin-right: 30px;
+        min-height: 600px;
+        padding-top: 47px;
+        box-sizing: border-box;
+        position: fixed;
+
+        .step-line {
+            background-color: $gray;
+            height: 2px;
+            width: 24px;
+            margin: 0 5px;
+            margin-top: 20px;
+            min-width: 6px;
+            overflow: auto;
+        }
+
+    }
+
+    .subitile-description {
+        margin: 10px 0 !important;
+        font-weight: normal !important;
+    }
+
+    .file-upload-container {
+        width: 200px;
+        height: 200px;
+        border: 1px solid $gray;
+        text-align: center;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .add-photo {
+            border-bottom: 1px solid $gray;
+            width: 90px;
+            margin: 0 auto;
+        }
+
+        .add-photo::after {
+            border-bottom: 1px solid $gray;
+            content: "";
+            display: block;
+            width: 90px;
+            transform: rotate(90deg);
+
+        }
+    }
+
+    .info-card {
+        min-height: 600px;
+        padding-top: 30px;
+        margin-left: 380px;
+
+        @media screen and (max-width: 768px) {
+            margin-left: unset;
+        }
+    }
+
+    .form-wrap {
+        padding: 0 55px;
+
+        .form-group {
+            margin: 5px 0;
+
+            label {
+                color: $color-text;
+                font-family: $secondary-font;
+                font-size: $default-font-size;
+                padding: 10px 0;
+                display: inline-block;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-group.grid-2 {
+        grid-template-columns: unset !important;
+        grid-template-rows: 1fr;
+        grid-gap: 0em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .business-layout.container {
+        padding: 20px 10px;
+    }
+
+    .info-card {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .info-card {
+        .Stepper {
+            display: none;
+        }
+    }
+}

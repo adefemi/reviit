@@ -1,0 +1,49 @@
+// src/styles/_theme.scss
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+// Fonts
+$primary-font: 'Open Sans',
+sans-serif;
+$secondary-font: 'Lato',
+sans-serif;
+$tertiary-font: 'Montserrat',
+sans-serif;
+
+$default-font-size: 16px;
+
+// Font Colors
+$color-text: #4f6c8d;
+$color-text-light: #a3adb4;
+$color-text-lighter: #ccd6e1;
+
+$color-text-contrast: #ffffff;
+$color-text-contrast-light: #a7b5c6;
+$color-text-contrast-lighter: #5f5f63;
+
+$white-color: #ffffff;
+$black-color: #000000;
+
+// Background Colors
+$gray: #bec9d1;
+$input: #ffffff;
+$border-light: rgba(0, 0, 0, 0.2);
+
+// Primary Colors
+$primary-color: #0F4CC5;
+$secondary-color: #6F5EE3;
+$success-color: #49B26D;
+$danger-color: rgb(218, 21, 73);
+
+// Dark Primary Colors
+$primary-color-dark: #0F4CC5;
+$secondary-color-dark: #0F4CC5;
+$success-color-dark: #21A14D;
+$danger-color-dark: #C91319;
+
+// Auxiliary Colors
+$primary-color-light: #6F5EE3;
+$secondary-color-light: rgb(109, 151, 235);
+$success-color-light: #71C38D;
+$danger-color-light: #DD7592;
+$warning-color-light: rgb(231, 189, 99);

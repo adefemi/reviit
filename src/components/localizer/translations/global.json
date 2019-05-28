@@ -1,0 +1,128 @@
+{
+  "login": ["Login", "S'identifier"],
+  "register": ["Register", "Registre"],
+  "become_artisan": ["Become an Artisan", "Devenir Artisan"],
+  "get_started": ["Get Started", "Commencer"],
+  "facebook_login": ["Login with Facebook", "Se connecter avec Facebook"],
+  "facebook_register": ["Register with Facebook", "Inscrivez-vous avec Facebook"],
+  "google_login": ["Login with Google", "Se connecter avec Google"],
+  "google_register": ["Register with Google", "Inscrivez-vous avec Google"],
+  "email": ["Email", "Email"],
+  "password": ["Password", "Mot de passe"],
+  "forgot_password": ["Forgot password ?", "Mot de passe oublié?"],
+  "no_account": ["Don't have an account?", "Je n'ai pas de compte?"],
+  "next": ["Next", "Suivant"],
+  "previous": ["Previous", "Précédent"],
+  "street_address": ["Street address", "Adresse de rue"],
+  "country": ["Country", "Pays"],
+  "state": ["State", "Etat"],
+  "city": ["City/Area", "Zone de la ville"],
+  "save_address": ["Save address", "Enregistrer l'adresse"],
+  "budget": ["Budget", "Budget"],
+  "description": ["Description", "La description"],
+  "type": ["Type", "Type"],
+  "save_and_continue": ["Save &amp; Continue", "Enregistrer continuer"],
+  "reviews": ["Reviews", "Avis"],
+  "how_it_works": ["How it works", "Comment ça marche"],
+  "my_tasks": ["My tasks", "Mes tâches"],
+  "my_jobs": ["My jobs", "Mes métiers"],
+  "home": {
+    "title": [
+      "Get The Best Professionals On ",
+      "Obtenez les meilleurs professionnels sur "
+    ],
+    "subtext": [
+      "Choose from our pool of trusted professionals to help with daily task without breaking the bank.",
+      "Choisissez parmi notre groupe de professionnels de confiance pour vous aider dans vos tâches quotidiennes sans vous ruiner."
+    ],
+    "search_placeholder": [
+      "What service do you need",
+      "De quel service avez-vous besoin"
+    ]
+  },
+  "create_task": {
+    "show_artisans": ["Show Artisans", "Montrer les artisans"],
+    "search_placeholder": [
+      "search for a task e.g plumbing....",
+      "rechercher une tâche, par exemple la plomberie ...."
+    ],
+    "select_category": ["Select a category", "Choisissez une catégorie"],
+    "which_task": [
+      "Which task do you need help with?",
+      "Pour quelle tâche avez-vous besoin d'aide?"
+    ],
+    "task_location": ["Task Location", "Lieu de la tâche"],
+    "task_location_end_address": [
+      "Enter the destination address of the task (Optional)",
+      "Entrez l'adresse de destination de la tâche (facultatif)."
+    ],
+    "enter_address": [
+      "Enter the start address of the task",
+      "Entrez l'adresse de début de la tâche"
+    ],
+    "task_options": ["Task Options", "Options de tâches"],
+    "describe_task": ["Describe task", "Décrivez votre tâche"],
+    "describe_task_label": ["Describe your task", "Décrivez votre tâche"],
+    "describe_task_placeholder": [
+      "Write a minimum of 20 words",
+      "Ecrire un minimum de 20 mots"
+    ],
+    "task_image": ["Task Images", "Images de tâches"],
+    "task_image_desc": [
+      "Now let the taskpro have a picture of what the task looks like.",
+      "Laissez maintenant le taskpro avoir une image de ce à quoi la tâche ressemble."
+    ],
+    "task_image_sub_desc": [
+      "(Images helps Taskpros with quotation, ensure images are clear)",
+      "(Les images aident Taskpros à faire des devis, garantissent la netteté des images)"
+    ],
+    "task_image_upload": ["", ""],
+    "use_end_address": [
+      "Use a destination address for this task",
+      "Utiliser une adresse de destination pour cette tâche"
+    ]
+  },
+  "tasks": {
+    "estimated_time": ["Estimated time", "Temps estimé"],
+    "date_and_time": ["Date and time", "Date et heure"],
+    "images_of_task": ["Images of task", "Images de tâche"],
+    "show_details": ["Show Details \u00BB", "Afficher les détails \u00BB"],
+    "show_less": ["Show Less \u00AB", "Montre moins \u00AB"],
+    "choose_your_artisan": ["Choose your Artisan", "Choisissez votre artisan"],
+    "sitback_and_relax": [
+      "Sit back and Relax",
+      "Asseyez-vous et détendez-vous"
+    ],
+    "describe_task_text": [
+      "Your client have provided you with details of their task they need you to work on, with a budget, do your time and cost estimate too.",
+      "Votre client vous a fourni des détails sur la tâche pour laquelle il a besoin de vous, avec un budget, faites aussi une estimation de votre temps et de vos coûts."
+    ],
+    "choose_artisan_text": [
+      "Choose an artisan from our pool of artisans, send a request to them and await response with quotation from them.",
+      "Choisissez un artisan parmi notre groupe d'artisans, envoyez-leur une demande et attendez une réponse de leur part."
+    ],
+    "sitback_and_relax_text": [
+      "Relax and let out artisan do your job to your satisfaction.",
+      "Détendez-vous et laissez l'artisan faire votre travail à votre satisfaction."
+    ],
+    "setup_a_task": ["Setup a task", "Configurer une tâche"],
+    "task_states": {
+      "pending": ["Pending", "En attendant"],
+      "ongoing": ["Ongoing", "En cours"],
+      "cancelled": ["Cancelled", "Annulé"],
+      "completed": ["Completed", "Terminé"],
+      "requested": ["Requested", "Demandé"]
+    },
+    "how_to_setup": ["How to setup a task", "Comment configurer une tâche"],
+    "profile_view": {
+      "why_work": [
+        "Why you should work with me:",
+        "Pourquoi devriez-vous travailler avec moi:"
+      ],
+      "no_profile": [
+        "User does not have a professional profile",
+        "L'utilisateur n'a pas de profil professionnel"
+      ]
+    }
+  }
+}

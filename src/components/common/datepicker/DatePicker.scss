@@ -1,0 +1,28 @@
+@import "../../../styles/theme";
+
+.DatePicker {
+
+    //Rewrites to AIRBNB date picker
+    .DateInput_input__focused {
+        border-color: $primary-color;
+    }
+
+    .DateInput_input {
+        box-sizing: border-box;
+        height: 40px;
+
+    }
+
+    .DayPickerKeyboardShortcuts_show__bottomRight::before {
+        border-right-color: $primary-color;
+    }
+
+    .CalendarDay__selected,
+    .CalendarDay__selected:active,
+    .CalendarDay__selected:hover {
+        background: $primary-color;
+        border-color: $primary-color;
+    }
+
+    //End of REWRITES
+}

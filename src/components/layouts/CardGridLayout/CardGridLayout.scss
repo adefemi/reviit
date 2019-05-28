@@ -1,0 +1,100 @@
+@import "../../../styles/theme";
+
+.CardGridLayout {
+  #auth-container {
+    min-height: unset !important;
+  }
+
+  .reset-auth-container {
+    height: unset !important;
+    padding: 20px 0;
+    min-height: unset !important;
+    box-sizing: border-box;
+  }
+
+  .card-grid-layout.container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+
+    .left-nav {
+      max-width: 347px;
+      width: 347px;
+      min-height: 580px;
+      height: 580px;
+      padding-top: 30px;
+      margin-right: 30px;
+    }
+
+    .card-main {
+      width: 100%;
+    }
+
+    .grid-2 {
+      grid-template-columns: auto 1fr;
+      grid-gap: 1em;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: $gray;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: $gray;
+    }
+
+    .right-nav {
+      min-height: 580px;
+      overflow-y: visible;
+      padding-top: 30px !important;
+      width: 100%;
+    }
+
+    .form-wrap {
+      padding: 0 55px;
+
+      .form-group {
+        margin: 5px 0;
+
+        label {
+          color: $color-text;
+          font-family: $secondary-font;
+          font-size: $default-font-size;
+          padding: 10px 0;
+          display: inline-block;
+        }
+
+        .SingleDatePicker {
+          display: block;
+
+          .SingleDatePickerInput {
+            display: block;
+
+            .DateInput {
+              width: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-grid-layout.container {
+      padding: 0 10px !important;
+    }
+  }
+}
